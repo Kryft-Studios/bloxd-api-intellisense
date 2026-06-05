@@ -1,0 +1,43 @@
+{
+  "name": "bloxd-api-tools",
+  "displayName": "bloxd-api",
+  "description": "This extension gives you intellisense for the bloxd.io scripting api",
+  "version": "0.1.4",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "publisher": "Kryft-Studios",
+  "author": {"name": "Kryft Studios","email": "AfriaStudios@outlook.in","url":"https://github.com/Kryft-Studios"},
+  "categories": [
+    "Other"
+  ],
+  "license":"Apache-2.0",
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "bloxd-api-tools.refresh",
+        "title": "Bloxd API: Refresh"
+      }
+    ]
+  },
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "pnpm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@types/vscode": "^1.120.0",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2",
+    "@vscode/vsce": "^3.9.2",
+    "eslint": "^9.39.3"
+  }
+}
