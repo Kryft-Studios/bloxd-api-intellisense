@@ -1,9 +1,9 @@
 {
   "name": "bloxd-api-tools",
   "displayName": "Bloxd API",
-  "icon": "https://bloxd.io/textures/miscImages/logo.png",
+  "icon": "image.png",
   "description": "This extension gives you intellisense for the bloxd.io scripting api",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "engines": {
     "vscode": "^1.120.0"
   },
