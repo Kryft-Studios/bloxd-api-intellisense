@@ -1,10 +1,14 @@
 {
   "name": "bloxd-api-tools",
-  "displayName": "bloxd-api",
+  "displayName": "Bloxd API",
+  "icon": "https://bloxd.io/textures/miscImages/logo.png",
   "description": "This extension gives you intellisense for the bloxd.io scripting api",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "engines": {
     "vscode": "^1.120.0"
+  },
+  "repository": {
+    "url": "https://github.com/Kryft-Studios/bloxd-api-intellisense"
   },
   "publisher": "Kryft-Studios",
   "author": {"name": "Kryft Studios","email": "AfriaStudios@outlook.in","url":"https://github.com/Kryft-Studios"},
